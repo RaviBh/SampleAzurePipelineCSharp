@@ -34,7 +34,7 @@ steps:
     projectFilePath: '$(System.DefaultWorkingDirectory)\AutomationFramework'
     projectLanguage: 'en'
     projectName: 'AutomationFramework'
-    workItemUrlTemplate: 'https://dev.azure.com/dheerajgambhir/AutomationFramework/_workitems/edit/{id}'
+    workItemUrlTemplate: 'https://dev.azure.com/RaviBh/AutomationFramework/_workitems/edit/{id}'
     workItemPrefix: "WI:"
 
 - task: CopyFiles@2
