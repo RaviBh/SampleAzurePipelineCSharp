@@ -28,15 +28,6 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: SpecFlowPlus@0
-  inputs:
-    generatorSource: 'FeatureFolder'
-    projectFilePath: '$(System.DefaultWorkingDirectory)\AutomationFramework'
-    projectLanguage: 'en'
-    projectName: 'AutomationFramework'
-    workItemUrlTemplate: 'https://dev.azure.com/RaviBh/AutomationFramework/_workitems/edit/{id}'
-    workItemPrefix: "WI:"
-
 - task: CopyFiles@2
   displayName: 'Copy Files to: $(build.artifactstagingdirectory)'
   inputs:
